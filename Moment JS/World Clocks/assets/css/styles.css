@@ -1,0 +1,111 @@
+
+  
+  
+  .clock_NY:before {
+    content: var(--timer-NY);
+  }
+
+  .clock_London:before {
+    content: var(--timer-London);
+  }
+
+  .clock_HK:before {
+    content: var(--timer-HK);
+  }
+
+  .clock_Mos:before {
+    content: var(--timer-Mos);
+  }
+  
+  body {
+    background-color: #292525 ;
+    background-image: url("../images/map.png" );
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    font-family: "Montserrat", "sans-serif";
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden; 
+  overflow-x: hidden;
+  }
+  
+  .clock-container-newyork {
+    position: relative;
+    top: 0%;
+   right: 30%;
+    flex-direction: row;
+    background-image: url("../images/clock.png" );
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+  }
+
+  .clock-container-London{
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    background-image: url("../images/clock.png" );
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    align-items: center;
+    
+    display: flex;
+  }
+
+  .clock-container-HK {
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    background-image: url("../images/clock.png" );
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    align-items: center;
+    
+    display: flex;
+  }
+
+  .clock-container-Mos {
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    background-image: url("../images/clock.png" );
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    align-items: center;
+    
+    display: flex;
+  }
+
+  .clock-col {
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    min-width: 90px;
+    position: relative;
+  }
+ 
+  .clock-timer:before {
+    color: white;
+    font-size: 3.7rem;
+    text-transform: uppercase;
+  }
+  .clock-label {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+ 
+  }
